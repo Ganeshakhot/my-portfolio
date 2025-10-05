@@ -16,52 +16,28 @@ function App() {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Find Your Business Partner Social Media Platform',
       category: 'web',
-      description: 'Full-stack e-commerce solution with real-time inventory and payment processing',
-      image: '🛍️',
-      tech: ['React', 'Node.js', 'Stripe'],
+      description: 'Developed a platform which is bridge for startups and investors. Basically, Find Your Business Partner is social media platform for the business and startups.',
+      image: '📱',
+      tech: ['PHP', 'MySql','HTML','CSS-Bootstrap','JavaScript'],
       gradient: 'from-emerald-400 to-teal-600'
     },
     {
-      title: 'Analytics Dashboard',
-      category: 'design',
-      description: 'Beautiful data visualization dashboard for business intelligence',
-      image: '📊',
-      tech: ['Vue.js', 'D3.js', 'Python'],
+      title: ' Hand Gesture Recognition for Human Computer Interaction',
+      category: 'StandAlone',
+      description: 'Human Computer Interaction, Gesture provides a way for computers to understand human body language, deals with the goal of interpreting hand gestures via mathematical algorithms, enables humans to interface with the machine and interact naturally without any mechanical devices',
+      image: '🤖',
+      tech: ['Python', 'OpenCV', 'Mediapipe'],
       gradient: 'from-blue-400 to-indigo-600'
     },
     {
-      title: 'Mobile Banking App',
-      category: 'mobile',
-      description: 'Secure mobile banking with biometric authentication',
-      image: '💳',
-      tech: ['React Native', 'Firebase'],
+      title: 'Photo Booth Application',
+      category: 'Windows Application',
+      description: 'Developed a cross-platform Photo Booth application with real-time image filters and overlays, integrated photo sharing and cloud backup, and optimized performance for high-resolution images.',
+      image: '📸',
+      tech: ['React.Js', 'MongoDB', 'Node.js', 'Electron.js'],
       gradient: 'from-purple-400 to-pink-600'
-    },
-    {
-      title: 'AI Content Generator',
-      category: 'web',
-      description: 'ML-powered content creation tool for marketers',
-      image: '🤖',
-      tech: ['Next.js', 'OpenAI', 'Python'],
-      gradient: 'from-orange-400 to-red-600'
-    },
-    {
-      title: 'Social Media Manager',
-      category: 'design',
-      description: 'Schedule and manage posts across multiple platforms',
-      image: '📱',
-      tech: ['React', 'GraphQL', 'Redis'],
-      gradient: 'from-cyan-400 to-blue-600'
-    },
-    {
-      title: 'Fitness Tracker',
-      category: 'mobile',
-      description: 'Track workouts, nutrition, and progress with AI coaching',
-      image: '💪',
-      tech: ['Flutter', 'Firebase', 'ML Kit'],
-      gradient: 'from-green-400 to-emerald-600'
     }
   ];
 
@@ -177,7 +153,7 @@ function App() {
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-3">Experience</h3>
               <p className="text-gray-600 leading-relaxed">
-                Software Engineer at top tech companies, shipped products serving millions of users
+                Software Engineer at Honeywell, delivering large-scale consumer applications used by millions worldwide.
               </p>
             </div>
 
@@ -270,9 +246,8 @@ function App() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {[
-              { title: 'Frontend', skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'Angular'], color: 'from-blue-500 to-indigo-600' },
-              { title: 'Backend', skills: ['Node.js', 'C# .Net', 'Java Spring Boot', 'MySQL', 'Microsoft Sql Server'], color: 'from-purple-500 to-pink-600' },
-              { title: 'DevOps', skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Linux'], color: 'from-orange-500 to-red-600' }
+              { title: 'Frontend', skills: ['JavaScript', 'React.js', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'Angular'], color: 'from-blue-500 to-indigo-600' },
+              { title: 'Backend', skills: ['Node.js', 'C# .Net', 'Java Spring Boot', 'MySQL', 'Microsoft Sql Server'], color: 'from-purple-500 to-pink-600' }
             ].map((category, index) => (
               <div key={index} className="p-6 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl hover:shadow-xl transition-all">
                 <div className={`inline-block px-4 py-2 bg-gradient-to-r ${category.color} text-white rounded-lg mb-4 font-bold text-sm sm:text-base`}>
@@ -296,7 +271,7 @@ function App() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Let's Work Together</h2>
           <p className="text-lg sm:text-xl mb-8 sm:mb-12 opacity-90">
-            Have a project in mind? I'd love to hear about it. Let's create something amazing together.
+            Have something exciting in mind? Let’s connect and brainstorm together.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
             <a
@@ -323,13 +298,13 @@ function App() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-gray-600 text-sm sm:text-base">© 2025 Ganesh Khot. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="https://github.com" className="text-gray-600 hover:text-blue-600 transition-colors">
+            <a href="https://github.com/Ganeshakhot" className="text-gray-600 hover:text-blue-600 transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" className="text-gray-600 hover:text-blue-600 transition-colors">
+            <a href="https://www.linkedin.com/in/ganesh-khot-28b169252/" className="text-gray-600 hover:text-blue-600 transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:alex@example.com" className="text-gray-600 hover:text-blue-600 transition-colors">
+            <a href="mailto:ganeshaakhot@gmail.com" className="text-gray-600 hover:text-blue-600 transition-colors">
               <Mail size={20} />
             </a>
           </div>
